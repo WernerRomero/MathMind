@@ -1,0 +1,130 @@
+@charset utf-8;
+
+/* *************************************
+* ************* 320 x 480 *************
+* ************************************ */
+
+/***************** Phone Portrait ******************/
+@media only screen and (max-width: 320px) and (min-width: 100px){
+	#nav-left{ width: 90px; }	
+	#nav-left ul li{ font-size: 15px; font-size: 1.5rem; margin-top: 10px; margin-bottom: 10px; }
+	#nav-left ul li a{ width: 100%; }
+	.content, .content2{ width: 68%; margin-left: 100px; padding: 5px 20px 5px 20px; }
+	.content3{ width: 410px; }
+	.content3 table{ width: 50%; margin-left: -19px; }
+	.content h2, .content2 h2{ font-size: 20px; font-size: 2rem; font-size: 200; }
+	.content h3, .content2 h3{ font-size: 15px; font-size: 1.5rem; font-weight: 200; }
+	.content p, .content2 p{ font-size: 12px; font-size: 1.2rem; font-weight: 200; }
+	.content img{ width: 50%; height: 100px; }
+	.content2 .img6{ height: 270px; }
+	.content2 .img12{ width: 100%; height: 120px; }
+	
+	.line-left{ background-color: none; border-right: none; }
+	
+	.calcu ul li{ height: 15px; }
+	.content3 .col-xs-12 table{ width: 100%; }
+}
+/***************** Phone landscape ******************/
+@media only screen and (max-width: 480px) and (min-width: 321px){
+	#nav-left{ width: 110px; }	
+	#nav-left ul li{
+		margin-top: 0px;
+		font-size: 15px;
+		font-size: 1.5rem;
+		margin-bottom: 5px;
+		height: 30px;
+	}
+	#nav-left ul li a{ width: 90%; }
+	.content, .content2{
+		width: 68%;
+		margin-left: 130px;
+		/* (arriba, der, abaj, izq) */
+		padding: 5px 20px 5px 20px;
+	}
+	.content3{ width: 100%;  }
+	
+	.content3 table{ width: 50%; margin-left: -19px; }
+
+	.content h2, .content2 h2{ font-size: 25px; font-size: 2.5rem; font-size: 300; }
+	.content h3, .content2 h3{ font-size: 2px; font-size: 2rem; font-weight: 300; }
+	.content p, .content2 p{ font-size: 18px; font-size: 1.8rem; font-weight: 300; }
+	.content img{ width: 50%; height: 100px; }
+	.content2 .img6{ height: 250px; }
+	.content2 .img12{ width: 100%; height: 200px; }
+	.content2 .img61{ height: 500px; }
+
+	.line-left{ background-color: none; border-right: none; }
+	.calcu ul li{ height: 15px; }
+	.content3 .col-xs-12 table{ width: 100%; margin-left: 5px;}
+}
+
+
+/* *************************************
+* ************* 480 x 800 *************
+* ************************************ */
+
+@media only screen and (max-width: 800px) and (min-width: 481px) {
+	#nav-left{ width: 150px; }
+	#nav-left ul li{ width: 130px; margin-left: -12px; font-size: 12px; font-size: 1.2rem; margin-top: 10px; margin-bottom: 10px; }
+	#nav-left ul li a{
+		width: 100%;
+	}
+
+	.content, .content2{ width: 75%; margin-left: 22%; }
+	
+	.content h2, .content2 h2{ font-size: 30px; font-size: 3rem; font-size: 400; }
+	.content h3, .content2 h3{ font-size: 25px; font-size: 2.5rem; font-weight: 400; }
+	.content p, .content2 p{ font-size: 20px; font-size: 2rem; font-weight: 400; }
+	.content img{ width: 50%; height: 30%; }
+	.content2 .img6{ height: 200px; }
+	.content2 .img12{ width: 100%; height: 300px; }
+	.content2 .img61{ height: 500px; }
+
+	.line-left{ margin-top: -315px; margin-left: 140px;}
+	.calcu ul li{ height: 15px; }
+	.content3 .col-xs-12 table{ width: 100%; }
+}
+
+
+/* *************************************
+* ************* 801 x 1024 *************
+* ************************************ */
+
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+	#nav-left{ width: 210px; }	
+	#nav-left ul li{width: 100%; margin-left: -5px; font-size: 18px; font-size: 1.8rem; }
+	#nav-left ul li a{ width: 100%; }
+
+	.content, .content2{ width: 70%; margin-left: 25%; }
+	.content h2, .content2 h2{ font-size: 40px; font-size: 4rem; font-size: 500; }
+	.content h3, .content2 h3{ font-size: 30px; font-size: 3rem; font-weight: 500; }
+	.content p, .content2 p{ font-size: 25px; font-size: 2.5rem; font-weight: 500; }
+	.content img{ width: 50%; height: 30%; }
+	.content2 .img6{ height: 300px; }
+	.content2 .img12{ width: 100%; height: 300px; }
+	.content2 .img61{ height: 500px; }
+
+	.line-left{ margin-top: -360px; margin-left: 190px;}
+	.calcu ul li{ height: 15px; }
+	.content3 .col-xs-12 table{ width: 100%; }
+	
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1225px){
+	#nav-left{ width: 250px; }
+	#nav-left ul li a{ width: 100%; }
+
+	.content, .content2{ width: 70%; margin-left: 25%; }
+	.content h2, .content2 h2{ font-size: 45px; font-size: 4.5rem; font-size: 550; }
+	.content h3, .content2 h3{ font-size: 35px; font-size: 3.5rem; font-weight: 550; }
+	.content p, .content2 p{ font-size: 27px; font-size: 2.7rem; font-weight: 550; }
+	.content img{ width: 50%; height: 30%; }	
+	.content2 .img6{ height: 300px; }
+
+	.content2 .img12{ width: 100%; height: 300px; }
+	.content2 .img61{ height: 500px; }
+
+	.line-left{ margin-top: -360px; margin-left: 230px;}
+	.calcu ul li{ height: 15px; }
+	.content3 .col-xs-12 table{ width: 100%; }
+}
