@@ -16,7 +16,7 @@ cuenta con herramienda de google que permite, crear graficos, en algunas pantall
 
 
 ## Inicio de Sesion
-![inicioDeSesion](img/inicioSesion.png)
+![inicioDeSesion](img/inisioSesion.png)
 
 ## Despues de Iniciar
 ![Principal](img/principal.png)
