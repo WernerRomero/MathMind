@@ -11,6 +11,8 @@ Cuenta con pequeñas calculadoras, para poder desarrollar pequeños ejercicios
 
 cuenta con herramienda de google que permite, crear graficos, en algunas pantallas
 
+Puedes ver el proyecto en el siguiente enlace [http://wernerromero.260mb.net/MathMind/](http://wernerromero.260mb.net/MathMind/)
+
 
 # Imagenes del Proyecto
 
